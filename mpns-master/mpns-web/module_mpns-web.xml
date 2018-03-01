@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_mpns-web" default="compile.module.mpns-web">
+  <dirname property="module.mpns-web.basedir" file="${ant.file.module_mpns-web}"/>
+  
+  <property name="module.jdk.home.mpns-web" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.mpns-web" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.mpns-web" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.mpns-web" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="mpns-web.output.dir" value="${module.mpns-web.basedir}/target/classes"/>
+  <property name="mpns-web.testoutput.dir" value="${module.mpns-web.basedir}/target/test-classes"/>
+  
+  <path id="mpns-web.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="mpns-web.module.production.classpath">
+    <path refid="${module.jdk.classpath.mpns-web}"/>
+    <pathelement location="${mpns-biz.output.dir}"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-client:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-netty:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-tools:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-api:0.8.0.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.36.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.6.classpath"/>
+    <path refid="library.maven:_com.typesafe:config:1.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:log4j-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.javassist:javassist:3.21.0-ga.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-native-epoll:linux-x86_64:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-udt:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.barchart.udt:barchart-udt-bundle:2.3.0.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-sctp:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-common:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-cache:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-monitor:0.8.0.classpath"/>
+    <path refid="library.maven:_redis.clients:jedis:2.9.0.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-pool2:2.4.2.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-zk:0.8.0.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-recipes:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-framework:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-client:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.zookeeper:zookeeper:3.4.8.classpath"/>
+    <path refid="library.maven:_jline:jline:0.9.94.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-x-discovery:2.11.1.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-mapper-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-core-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.7.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aspects:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.aspectj:aspectjweaver:1.8.9.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.3.2.release.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:3.4.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-common:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-buffer:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler-proxy:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-socks:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http2:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-redis-client:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-rx-java:3.4.2.classpath"/>
+    <path refid="library.maven:_io.reactivex:rxjava:1.3.0.classpath"/>
+    <path refid="library.maven:_com.h2database:h2:1.4.192.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-web:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-auth-common:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-codegen:3.4.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.7.0.classpath"/>
+    <path refid="library.maven:_org.mvel:mvel2:2.2.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-service-proxy:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-lang-js:3.4.2.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.7.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.1.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.1.7.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+  </path>
+  
+  <path id="mpns-web.runtime.production.module.classpath">
+    <pathelement location="${mpns-web.output.dir}"/>
+    <path refid="mpns-biz.runtime.production.module.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-client:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-netty:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-tools:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-api:0.8.0.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.36.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.6.classpath"/>
+    <path refid="library.maven:_com.typesafe:config:1.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:log4j-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.javassist:javassist:3.21.0-ga.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-native-epoll:linux-x86_64:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-udt:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.barchart.udt:barchart-udt-bundle:2.3.0.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-sctp:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-common:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-cache:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-monitor:0.8.0.classpath"/>
+    <path refid="library.maven:_redis.clients:jedis:2.9.0.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-pool2:2.4.2.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-zk:0.8.0.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-recipes:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-framework:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-client:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.zookeeper:zookeeper:3.4.8.classpath"/>
+    <path refid="library.maven:_jline:jline:0.9.94.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-x-discovery:2.11.1.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-mapper-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-core-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.7.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aspects:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.aspectj:aspectjweaver:1.8.9.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.3.2.release.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:3.4.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-common:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-buffer:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler-proxy:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-socks:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http2:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-redis-client:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-rx-java:3.4.2.classpath"/>
+    <path refid="library.maven:_io.reactivex:rxjava:1.3.0.classpath"/>
+    <path refid="library.maven:_com.h2database:h2:1.4.192.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-web:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-auth-common:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-codegen:3.4.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.7.0.classpath"/>
+    <path refid="library.maven:_org.mvel:mvel2:2.2.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-service-proxy:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-lang-js:3.4.2.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.1.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.1.7.classpath"/>
+  </path>
+  
+  <path id="mpns-web.module.classpath">
+    <path refid="${module.jdk.classpath.mpns-web}"/>
+    <pathelement location="${mpns-web.output.dir}"/>
+    <pathelement location="${mpns-biz.testoutput.dir}"/>
+    <pathelement location="${mpns-biz.output.dir}"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-client:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-netty:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-tools:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-api:0.8.0.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.36.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.6.classpath"/>
+    <path refid="library.maven:_com.typesafe:config:1.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:log4j-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.javassist:javassist:3.21.0-ga.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-native-epoll:linux-x86_64:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-udt:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.barchart.udt:barchart-udt-bundle:2.3.0.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-sctp:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-common:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-cache:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-monitor:0.8.0.classpath"/>
+    <path refid="library.maven:_redis.clients:jedis:2.9.0.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-pool2:2.4.2.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-zk:0.8.0.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-recipes:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-framework:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-client:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.zookeeper:zookeeper:3.4.8.classpath"/>
+    <path refid="library.maven:_jline:jline:0.9.94.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-x-discovery:2.11.1.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-mapper-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-core-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.7.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aspects:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.aspectj:aspectjweaver:1.8.9.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.3.2.release.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:3.4.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-common:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-buffer:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler-proxy:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-socks:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http2:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-redis-client:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-rx-java:3.4.2.classpath"/>
+    <path refid="library.maven:_io.reactivex:rxjava:1.3.0.classpath"/>
+    <path refid="library.maven:_com.h2database:h2:1.4.192.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-web:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-auth-common:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-codegen:3.4.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.7.0.classpath"/>
+    <path refid="library.maven:_org.mvel:mvel2:2.2.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-service-proxy:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-lang-js:3.4.2.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.7.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.1.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.1.7.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+  </path>
+  
+  <path id="mpns-web.runtime.module.classpath">
+    <pathelement location="${mpns-web.testoutput.dir}"/>
+    <pathelement location="${mpns-web.output.dir}"/>
+    <path refid="mpns-biz.runtime.module.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-client:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-netty:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-tools:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-api:0.8.0.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.36.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.6.classpath"/>
+    <path refid="library.maven:_com.typesafe:config:1.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:log4j-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.javassist:javassist:3.21.0-ga.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-native-epoll:linux-x86_64:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-udt:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.barchart.udt:barchart-udt-bundle:2.3.0.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport-sctp:4.1.8.final.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-common:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-cache:0.8.0.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-monitor:0.8.0.classpath"/>
+    <path refid="library.maven:_redis.clients:jedis:2.9.0.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-pool2:2.4.2.classpath"/>
+    <path refid="library.maven:_com.github.mpusher:mpush-zk:0.8.0.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-recipes:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-framework:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-client:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.zookeeper:zookeeper:3.4.8.classpath"/>
+    <path refid="library.maven:_jline:jline:0.9.94.classpath"/>
+    <path refid="library.maven:_org.apache.curator:curator-x-discovery:2.11.1.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-mapper-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.codehaus.jackson:jackson-core-asl:1.9.13.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.7.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aspects:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.aspectj:aspectjweaver:1.8.9.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.3.2.release.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-core:3.4.2.classpath"/>
+    <path refid="library.maven:_io.netty:netty-common:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-buffer:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-transport:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-handler-proxy:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-socks:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-http2:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-resolver-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.netty:netty-codec-dns:4.1.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-redis-client:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-rx-java:3.4.2.classpath"/>
+    <path refid="library.maven:_io.reactivex:rxjava:1.3.0.classpath"/>
+    <path refid="library.maven:_com.h2database:h2:1.4.192.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-web:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-auth-common:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-codegen:3.4.2.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.7.4.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.7.0.classpath"/>
+    <path refid="library.maven:_org.mvel:mvel2:2.2.8.final.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-service-proxy:3.4.2.classpath"/>
+    <path refid="library.maven:_io.vertx:vertx-lang-js:3.4.2.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.3.2.release.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.7.7.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.1.7.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.1.7.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.17.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.mpns-web">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.mpns-web">
+    <patternset refid="excluded.from.module.mpns-web"/>
+  </patternset>
+  
+  <path id="mpns-web.module.sourcepath">
+    <dirset dir="${module.mpns-web.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.mpns-web" depends="compile.module.mpns-web.production,compile.module.mpns-web.tests" description="Compile module mpns-web"/>
+  
+  <target name="compile.module.mpns-web.production" depends="register.custom.compilers,compile.module.mpns-biz" description="Compile module mpns-web; production classes">
+    <mkdir dir="${mpns-web.output.dir}"/>
+    <javac2 destdir="${mpns-web.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mpns-web}/javac">
+      <compilerarg line="${compiler.args.mpns-web}"/>
+      <bootclasspath refid="mpns-web.module.bootclasspath"/>
+      <classpath refid="mpns-web.module.production.classpath"/>
+      <src refid="mpns-web.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mpns-web"/>
+    </javac2>
+    
+    <copy todir="${mpns-web.output.dir}">
+      <fileset dir="${module.mpns-web.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.mpns-web.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.mpns-web.tests" depends="register.custom.compilers,compile.module.mpns-web.production" description="compile module mpns-web; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.mpns-web" description="cleanup module">
+    <delete dir="${mpns-web.output.dir}"/>
+    <delete dir="${mpns-web.testoutput.dir}"/>
+  </target>
+</project>

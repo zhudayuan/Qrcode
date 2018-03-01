@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_mpns" default="compile.module.mpns">
+  <dirname property="module.mpns.basedir" file="${ant.file.module_mpns}"/>
+  
+  <property name="module.jdk.home.mpns" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.mpns" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.mpns" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.mpns" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="mpns.output.dir" value="${module.mpns.basedir}/target/classes"/>
+  <property name="mpns.testoutput.dir" value="${module.mpns.basedir}/target/test-classes"/>
+  
+  <path id="mpns.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="mpns.module.production.classpath">
+    <path refid="${module.jdk.classpath.mpns}"/>
+  </path>
+  
+  <path id="mpns.runtime.production.module.classpath">
+    <pathelement location="${mpns.output.dir}"/>
+  </path>
+  
+  <path id="mpns.module.classpath">
+    <path refid="${module.jdk.classpath.mpns}"/>
+    <pathelement location="${mpns.output.dir}"/>
+  </path>
+  
+  <path id="mpns.runtime.module.classpath">
+    <pathelement location="${mpns.testoutput.dir}"/>
+    <pathelement location="${mpns.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.mpns">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.mpns">
+    <patternset refid="excluded.from.module.mpns"/>
+  </patternset>
+  
+  
+  <target name="compile.module.mpns" depends="compile.module.mpns.production,compile.module.mpns.tests" description="Compile module mpns"/>
+  
+  <target name="compile.module.mpns.production" depends="register.custom.compilers" description="Compile module mpns; production classes"/>
+  
+  <target name="compile.module.mpns.tests" depends="register.custom.compilers,compile.module.mpns.production" description="compile module mpns; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.mpns" description="cleanup module">
+    <delete dir="${mpns.output.dir}"/>
+    <delete dir="${mpns.testoutput.dir}"/>
+  </target>
+</project>

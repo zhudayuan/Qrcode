@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alloc" />
+        <module name="mpns-biz" />
+        <module name="mpns-client" />
+        <module name="mpns-web" />
+        <module name="mpush-api" />
+        <module name="mpush-api (2)" />
+        <module name="mpush-boot" />
+        <module name="mpush-boot (2)" />
+        <module name="mpush-cache" />
+        <module name="mpush-cache (2)" />
+        <module name="mpush-client" />
+        <module name="mpush-client (2)" />
+        <module name="mpush-client-java" />
+        <module name="mpush-common" />
+        <module name="mpush-common (2)" />
+        <module name="mpush-core" />
+        <module name="mpush-core (2)" />
+        <module name="mpush-monitor" />
+        <module name="mpush-monitor (2)" />
+        <module name="mpush-netty" />
+        <module name="mpush-netty (2)" />
+        <module name="mpush-test" />
+        <module name="mpush-test (2)" />
+        <module name="mpush-tools" />
+        <module name="mpush-tools (2)" />
+        <module name="mpush-zk" />
+        <module name="mpush-zk (2)" />
+        <module name="qrpush" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="alloc" target="1.8" />
+      <module name="client-java" target="1.7" />
+      <module name="demo" target="1.8" />
+      <module name="kstore" target="1.7" />
+      <module name="kstore_centaur" target="1.7" />
+      <module name="kstore_common" target="1.7" />
+      <module name="kstore_core" target="1.7" />
+      <module name="kstore_custom" target="1.7" />
+      <module name="kstore_custom_plug" target="1.7" />
+      <module name="kstore_gift" target="1.7" />
+      <module name="kstore_goods" target="1.7" />
+      <module name="kstore_goods_platform" target="1.7" />
+      <module name="kstore_information" target="1.7" />
+      <module name="kstore_market" target="1.7" />
+      <module name="kstore_mobile_site" target="1.7" />
+      <module name="kstore_newboss_site" target="1.7" />
+      <module name="kstore_newthird_site" target="1.7" />
+      <module name="kstore_open" target="1.7" />
+      <module name="kstore_open_plus" target="1.7" />
+      <module name="kstore_order" target="1.7" />
+      <module name="kstore_searchplatform" target="1.7" />
+      <module name="kstore_site" target="1.7" />
+      <module name="kstore_site_common" target="1.7" />
+      <module name="kstore_system" target="1.7" />
+      <module name="kstore_templet" target="1.7" />
+      <module name="micaweb" target="1.8" />
+      <module name="mpns" target="1.8" />
+      <module name="mpns-biz" target="1.8" />
+      <module name="mpns-client" target="1.8" />
+      <module name="mpns-web" target="1.8" />
+      <module name="mpush" target="1.8" />
+      <module name="mpush (1)" target="1.8" />
+      <module name="mpush (2)" target="1.8" />
+      <module name="mpush-api" target="1.8" />
+      <module name="mpush-api (1)" target="1.8" />
+      <module name="mpush-api (2)" target="1.8" />
+      <module name="mpush-boot" target="1.8" />
+      <module name="mpush-boot (1)" target="1.8" />
+      <module name="mpush-boot (2)" target="1.8" />
+      <module name="mpush-cache" target="1.8" />
+      <module name="mpush-cache (1)" target="1.8" />
+      <module name="mpush-cache (2)" target="1.8" />
+      <module name="mpush-client" target="1.8" />
+      <module name="mpush-client (1)" target="1.8" />
+      <module name="mpush-client (2)" target="1.8" />
+      <module name="mpush-client-java" target="1.7" />
+      <module name="mpush-common" target="1.8" />
+      <module name="mpush-common (1)" target="1.8" />
+      <module name="mpush-common (2)" target="1.8" />
+      <module name="mpush-core" target="1.8" />
+      <module name="mpush-core (1)" target="1.8" />
+      <module name="mpush-core (2)" target="1.8" />
+      <module name="mpush-monitor" target="1.8" />
+      <module name="mpush-monitor (1)" target="1.8" />
+      <module name="mpush-monitor (2)" target="1.8" />
+      <module name="mpush-netty" target="1.8" />
+      <module name="mpush-netty (1)" target="1.8" />
+      <module name="mpush-netty (2)" target="1.8" />
+      <module name="mpush-test" target="1.8" />
+      <module name="mpush-test (1)" target="1.8" />
+      <module name="mpush-test (2)" target="1.8" />
+      <module name="mpush-tools" target="1.8" />
+      <module name="mpush-tools (1)" target="1.8" />
+      <module name="mpush-tools (2)" target="1.8" />
+      <module name="mpush-zk" target="1.8" />
+      <module name="mpush-zk (1)" target="1.8" />
+      <module name="mpush-zk (2)" target="1.8" />
+      <module name="qrpush" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

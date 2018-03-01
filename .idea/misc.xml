@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_mobile_site" />
+    <file type="web" url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_newboss_site" />
+    <file type="web" url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_newthird_site" />
+    <file type="web" url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_open" />
+    <file type="web" url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_site" />
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/qrweb" />
+    <file type="web" url="file://$PROJECT_DIR$/../wappweb/micaweb" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mpns-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-client-java-master/pom.xml" />
+        <option value="$PROJECT_DIR$/alloc-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/pom.xml" />
+        <option value="$PROJECT_DIR$/qrpush/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/pom.xml" />
+        <option value="$PROJECT_DIR$/mpush-master/pom.xml" />
+        <option value="$PROJECT_DIR$/client-java-master/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_centaur/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_common/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_core/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_custom/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_custom_plug/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_gift/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_goods/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_goods_platform/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_information/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_market/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_mobile_site/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_newboss_site/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_newthird_site/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_open/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_open_plus/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_order/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_searchplatform/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_site/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_site_common/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_system/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/kstore_templet/pom.xml" />
+        <option value="$PROJECT_DIR$/../guangdongchengyi/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-test/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-tools/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/mpush-zk/pom.xml" />
+        <option value="$PROJECT_DIR$/../mpush-master/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
