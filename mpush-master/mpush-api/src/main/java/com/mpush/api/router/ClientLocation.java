@@ -59,6 +59,8 @@ public final class ClientLocation {
      */
     private String connId;
 
+    private String tags;
+    private String userId;
     /**
      * 客户端类型
      */
@@ -149,7 +151,9 @@ public final class ClientLocation {
         location.clientVersion = context.clientVersion;
         location.deviceId = context.deviceId;
         location.connId = connection.getId();
-        String tags = context.tags;
+        location.tags = context.tags;
+        location.userId = context.userId;
+
         return location;
     }
 

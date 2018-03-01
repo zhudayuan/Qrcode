@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e4d1f8-f013-4c6b-a480-2a79c74f89f5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java" afterPath="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java" />
       <change beforePath="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java" afterPath="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/qrpush/src/main/resources/application-bean.xml" afterPath="$PROJECT_DIR$/qrpush/src/main/resources/application-bean.xml" />
       <change beforePath="$PROJECT_DIR$/qrpush/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/qrpush/src/main/resources/application.conf" />
@@ -91,8 +92,8 @@
       <file leaf-file-name="PushAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="420">
+              <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -101,63 +102,93 @@
       <file leaf-file-name="PushServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="91" column="62" lean-forward="false" selection-start-line="91" selection-start-column="62" selection-end-line="91" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientLocation.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/router/ClientLocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="144" column="18" lean-forward="false" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="37" />
+            <state relative-caret-position="141">
+              <caret line="128" column="53" lean-forward="false" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="53" />
               <folding>
-                <element signature="e#2462#2463#0" expanded="true" />
-                <element signature="e#2499#2500#0" expanded="true" />
-                <element signature="e#2533#2534#0" expanded="true" />
-                <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientLocation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mpush-master/mpush-api/src/main/java/com/mpush/api/router/ClientLocation.java">
+      <file leaf-file-name="ZKClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpush-master/mpush-zk/src/main/java/com/mpush/zk/ZKClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state relative-caret-position="179">
+              <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PushMsg.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/push/PushMsg.java">
+      <file leaf-file-name="AdminHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/handler/AdminHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="171">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/MessageHandler.java">
+      <file leaf-file-name="PushServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpns-master/mpns-biz/src/main/java/com/mpush/mpns/biz/service/impl/PushServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="321">
+              <caret line="141" column="26" lean-forward="false" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+              <folding>
+                <element signature="e#2075#2076#0" expanded="true" />
+                <element signature="e#2138#2139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf-daily.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-daily.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseMessageHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/BaseMessageHandler.java">
+      <file leaf-file-name="MPushClientTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-java-master/src/test/java/com/mpush/client/MPushClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="831">
+              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpush-master/mpush-test/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteRouterManager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-common/0.8.0/mpush-common-0.8.0-sources.jar!/com/mpush/common/router/RemoteRouterManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="82" column="62" lean-forward="false" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpush-master/mpush-cache/src/main/java/com/mpush/cache/redis/manager/RedisManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="179" column="39" lean-forward="false" selection-start-line="179" selection-start-column="33" selection-end-line="179" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -166,8 +197,8 @@
       <file leaf-file-name="PushMessageHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/PushMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="e#1340#1341#0" expanded="true" />
                 <element signature="e#1398#1399#0" expanded="true" />
@@ -176,64 +207,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GatewayTCPConnectionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/gateway/connection/GatewayTCPConnectionFactory.java">
+      <file leaf-file-name="PushClientTestMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushClientTestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="208" column="21" lean-forward="false" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+            <state relative-caret-position="179">
+              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TcpConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/client/TcpConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
-              <folding>
-                <element signature="e#8815#8816#0" expanded="true" />
-                <element signature="e#8845#8846#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MPushClientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-java-master/src/test/java/com/mpush/client/MPushClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-bean.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/application-bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QrpushApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/QrpushApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -253,21 +241,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>receive push message</find>
-      <find>ping -&gt; pong</find>
-      <find>pong</find>
-      <find>context=</find>
-      <find>toString</find>
-      <find>receivePushNum</find>
-      <find>RollingFileAppender</find>
-      <find>ConnClientChannelHandler</find>
-      <find>contextName</find>
-      <find>logback.xml</find>
-      <find>9999</find>
-      <find>getConnection</find>
-      <find>connect-server-bind-ip</find>
-      <find>log-dir</find>
-      <find>zk.server</find>
       <find>addConnection</find>
       <find>PATH_SEPARATOR</find>
       <find>127.0.0.1</find>
@@ -283,6 +256,21 @@
       <find>one gateway client connect success</find>
       <find>send msg success</find>
       <find>ClientLocation from</find>
+      <find>push request timeout end</find>
+      <find>push request timeout</find>
+      <find>request offline</find>
+      <find>push</find>
+      <find>offline</find>
+      <find>push request success end</find>
+      <find>Push-Time-Line</find>
+      <find>sendToConnServer</find>
+      <find>send</find>
+      <find>push request</find>
+      <find>ne gateway client</find>
+      <find>heartbeat timeout</find>
+      <find>heartbeat timeout</find>
+      <find>State change</find>
+      <find>zk connection</find>
     </findStrings>
     <replaceStrings>
       <replace>public</replace>
@@ -303,9 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/spi/MayServerEventListenerFactory.java" />
         <option value="$PROJECT_DIR$/qrpush/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/qrpush/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/qrpush/target/classes/static/index.html" />
@@ -338,22 +323,25 @@
         <option value="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/MPushManager.java" />
         <option value="$PROJECT_DIR$/../mpush-client-java-master/src/test/java/com/mpush/client/MPushClientTest.java" />
         <option value="$PROJECT_DIR$/mpns-master/conf/conf-online.properties" />
-        <option value="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java" />
         <option value="$PROJECT_DIR$/mpush-master/mpush-test/src/main/java/com/mpush/test/sever/ServerTestMain.java" />
         <option value="$PROJECT_DIR$/mpush-master/mpush-test/src/main/java/com/mpush/test/zk/ZKClientTest.java" />
         <option value="$PROJECT_DIR$/mpush-master/mpush-boot/src/main/resources/mpush.conf" />
-        <option value="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java" />
-        <option value="$PROJECT_DIR$/mpush-master/mpush-test/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/../client-java-master/src/test/java/com/mpush/client/MPushClientTest.java" />
         <option value="$PROJECT_DIR$/mpns-master/conf/conf-dev.properties" />
         <option value="$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/cfg.properties" />
         <option value="$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/qrpush/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/qrpush/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/qrpush/src/main/resources/application-bean.xml" />
         <option value="$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/PushMessageHandler.java" />
         <option value="$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/connection/SessionContext.java" />
         <option value="$PROJECT_DIR$/mpush-master/mpush-api/src/main/java/com/mpush/api/router/ClientLocation.java" />
+        <option value="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java" />
+        <option value="$PROJECT_DIR$/mpns-master/conf/conf-daily.properties" />
+        <option value="$PROJECT_DIR$/client-java-master/src/test/java/com/mpush/client/MPushClientTest.java" />
+        <option value="$PROJECT_DIR$/mpush-master/mpush-test/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/qrpush/src/main/resources/application.conf" />
       </list>
     </option>
   </component>
@@ -416,7 +404,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -473,7 +461,73 @@
             </path>
             <path>
               <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpns-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpns-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
@@ -522,6 +576,59 @@
             </path>
             <path>
               <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="sever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpush-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mpush-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="qrpush" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -549,6 +656,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qrpush" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrpush" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qrpush" type="462c0819:PsiDirectoryNode" />
+              <item name="push" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrpush" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -651,7 +774,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QrpushApplication">
+  <component name="RunManager" selected="Application.AppMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -932,8 +1055,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.MPushClientTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AppMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ServerTestMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerTestMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AppMain" />
         <item index="3" class="java.lang.String" itemvalue="Application.PushClientTestMain2" />
         <item index="4" class="java.lang.String" itemvalue="Application.PushClientTestMain" />
       </list>
@@ -984,7 +1107,7 @@
       <workItem from="1519715754364" duration="7722000" />
       <workItem from="1519778766034" duration="204000" />
       <workItem from="1519779085931" duration="8134000" />
-      <workItem from="1519865378211" duration="2420000" />
+      <workItem from="1519865378211" duration="13532000" />
     </task>
     <servers />
   </component>
@@ -1003,7 +1126,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333420000" />
+    <option name="totallyTimeSpent" value="344532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,11 +1138,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46587217" sideWeight="0.08635394" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38678223" sideWeight="0.08635394" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4914712" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.304371" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1028,7 +1150,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46587217" sideWeight="0.91364604" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38678223" sideWeight="0.91364604" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19501625" sideWeight="0.6513859" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1070,24 +1192,6 @@
           <line>52</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/handler/AdminHandler.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/handler/AdminHandler.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mpns-master/mpns-biz/src/main/java/com/mpush/mpns/biz/service/impl/PushServiceImpl.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../wappweb/micaweb/src/test/java/com/maywide/test/PushClientTestMain.java</url>
@@ -1186,12 +1290,6 @@
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../client-java-master/src/main/java/com/mpush/handler/PushMessageHandler.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/spi/ServerEventListenerImpl.java</url>
           <line>41</line>
           <properties />
@@ -1234,18 +1332,6 @@
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../client-java-master/src/main/java/com/mpush/handler/PushMessageHandler.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="194" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mpush-master/mpush-core/src/main/java/com/mpush/core/push/SingleUserPushTask.java</url>
-          <line>210</line>
-          <properties />
-          <option name="timeStamp" value="210" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/connect/ConnClientChannelHandler.java</url>
           <line>82</line>
           <properties />
@@ -1281,29 +1367,11 @@
           <properties />
           <option name="timeStamp" value="248" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="262" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/PushMessageHandler.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="264" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/gateway/connection/GatewayTCPConnectionFactory.java</url>
-          <line>208</line>
-          <properties />
-          <option name="timeStamp" value="265" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="266" />
+      <option name="time" value="272" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1312,68 +1380,56 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/srd/ServiceDiscovery.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/router/ClientLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="137">
+          <caret line="144" column="18" lean-forward="false" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="37" />
+          <folding>
+            <element signature="e#2462#2463#0" expanded="false" />
+            <element signature="e#2499#2500#0" expanded="false" />
+            <element signature="e#2533#2534#0" expanded="false" />
+            <element signature="e#2570#2571#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alloc-master/src/main/java/com/shinemo/mpush/alloc/AllocHandler.java">
+    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/BaseMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="98" column="29" lean-forward="false" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+        <state relative-caret-position="203">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/srd/CommonServiceNode.java">
+    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/MessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-zk/0.8.0/mpush-zk-0.8.0-sources.jar!/com/mpush/zk/ZKServiceRegistryAndDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="105" column="42" lean-forward="false" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpush-master/conf/reference.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-client/0.8.0/mpush-client-0.8.0.jar!/com/mpush/client/gateway/connection/GatewayTCPConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="50" column="7" lean-forward="false" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mpush-master/mpush-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="280">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-test/src/main/resources/application.conf">
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-api/src/main/java/com/mpush/api/router/ClientLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="219">
+          <caret line="147" column="52" lean-forward="true" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-tools/0.8.0/mpush-tools-0.8.0-sources.jar!/com/mpush/tools/common/TimeLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-common/0.8.0/mpush-common-0.8.0-sources.jar!/com/mpush/common/router/RemoteRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,350 +1437,202 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/AppServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1165">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/spring-core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/log4j2.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Protocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="179">
+          <caret line="237" column="317" lean-forward="false" selection-start-line="237" selection-start-column="317" selection-end-line="237" selection-end-column="317" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/cfg.json">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/cfg.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-pre.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpush-master/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="330" column="17" lean-forward="false" selection-start-line="330" selection-start-column="17" selection-end-line="330" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/bean/ds-push.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/AppMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/AppLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../client-java-master/src/test/java/com/mpush/client/MPushClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushClientTestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3210">
-          <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/push/PushContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-client/0.8.0/mpush-client-0.8.0.jar!/com/mpush/client/push/PushRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5790">
-          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="293" column="20" lean-forward="false" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
           <folding>
-            <marker date="1515982021121" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515982021121" expanded="false" signature="145:1051" ph="..." />
-            <marker date="1515982021121" expanded="true" signature="1261:1302" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="1866:3593" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="2283:2530" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="2549:3363" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="2663:3155" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="3646:4389" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="4413:4590" ph="{...}" />
-            <marker date="1515982021121" expanded="false" signature="4648:4659" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="4701:4707" ph=" }" />
-            <marker date="1515982021121" expanded="true" signature="4769:4867" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="4915:6176" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="5047:5262" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="5281:6008" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="5322:5727" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="6205:6352" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="6381:6541" ph="{...}" />
-            <marker date="1515982021121" expanded="false" signature="6569:6580" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="6620:6626" ph=" }" />
-            <marker date="1515982021121" expanded="false" signature="6654:6665" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="6705:6711" ph=" }" />
-            <marker date="1515982021121" expanded="false" signature="6740:6751" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="6766:6772" ph=" }" />
-            <marker date="1515982021121" expanded="true" signature="6803:7296" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="7344:7396" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="7450:7607" ph="{...}" />
-            <marker date="1515982021121" expanded="false" signature="7637:7648" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="7674:7680" ph=" }" />
-            <marker date="1515982021121" expanded="true" signature="7730:7922" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="8002:8621" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="8658:8927" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="8987:9049" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9099:9157" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9209:9269" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9318:9378" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9434:9496" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9547:9601" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9657:9721" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9771:9829" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="9860:10070" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="10103:10230" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="10213:10224" ph="{}" />
+            <element signature="e#7381#7382#0" expanded="false" />
+            <element signature="e#7416#7417#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-client/0.8.0/mpush-client-0.8.0.jar!/com/mpush/client/push/PushClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="221" column="8" lean-forward="false" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
           <folding>
-            <marker date="1515982021121" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515982021121" expanded="false" signature="145:817" ph="..." />
-            <marker date="1515982021121" expanded="true" signature="1126:1133" ph="{}" />
-            <marker date="1515982021121" expanded="true" signature="1193:1973" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="2031:2623" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="2688:3237" ph="{...}" />
-            <marker date="1515982021121" expanded="true" signature="3301:3503" ph="{...}" />
-            <marker date="1515982021121" expanded="false" signature="3535:3546" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="3572:3578" ph=" }" />
-            <marker date="1515982021121" expanded="false" signature="3633:3644" ph=" { " />
-            <marker date="1515982021121" expanded="false" signature="3684:3690" ph=" }" />
+            <element signature="e#6555#6556#0" expanded="false" />
+            <element signature="e#6597#6598#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/test/java/com/maywidehb/qrpush/QrpushApplicationTests.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="239">
+          <caret line="846" column="14" lean-forward="true" selection-start-line="846" selection-start-column="14" selection-end-line="846" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-cache/0.8.0/mpush-cache-0.8.0-sources.jar!/com/mpush/cache/redis/manager/RedisManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="201">
+          <caret line="172" column="37" lean-forward="false" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/bean/biz-manager.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-common/0.8.0/mpush-common-0.8.0-sources.jar!/com/mpush/common/CacheKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/push/PushMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/MessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/BaseMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/message/BaseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1177">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/message/PushMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="269">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
-            <element signature="e#1242#1243#0" expanded="false" />
-            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1253#1254#0" expanded="false" />
+            <element signature="e#1296#1297#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/application-bean.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0-sources.jar!/com/google/common/cache/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="179">
+          <caret line="115" column="7" lean-forward="false" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/application.conf">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-common/0.8.0/mpush-common-0.8.0-sources.jar!/com/mpush/common/router/CachedRemoteRouterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-client/0.8.0/mpush-client-0.8.0.jar!/com/mpush/client/gateway/connection/GatewayTCPConnectionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="359">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-java-master/src/test/java/com/mpush/client/MPushClientTest.java">
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-netty/src/main/java/com/mpush/netty/connection/NettyConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="-9">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/QrpushApplication.java">
+    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/connection/Cipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="237">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/api/connection/SessionContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="179">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-core/src/main/java/com/mpush/core/push/SingleUserPushTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/gateway/connection/GatewayTCPConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="201" column="13" lean-forward="false" selection-start-line="201" selection-start-column="13" selection-end-line="201" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-client/0.8.0/mpush-client-0.8.0.jar!/com/mpush/client/push/PushClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-core/src/main/java/com/mpush/core/server/ServerConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="167" column="40" lean-forward="false" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/client/TcpConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="260" column="69" lean-forward="true" selection-start-line="260" selection-start-column="69" selection-end-line="260" selection-end-column="69" />
           <folding>
-            <element signature="e#8815#8816#0" expanded="true" />
-            <element signature="e#8845#8846#0" expanded="true" />
+            <element signature="e#8479#8480#0" expanded="false" />
+            <element signature="e#8570#8571#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/gateway/connection/GatewayTCPConnectionFactory.java">
+    <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/client/MPushClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="208" column="21" lean-forward="false" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+        <state relative-caret-position="-211">
+          <caret line="162" column="30" lean-forward="false" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/conf/reference.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/push/PushRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="140" column="61" lean-forward="false" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/IndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushClientTestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client-java-master/src/main/java/com/mpush/handler/PushMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="310">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="e#1340#1341#0" expanded="true" />
             <element signature="e#1398#1399#0" expanded="true" />
@@ -1732,39 +1640,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-common/0.8.0/mpush-common-0.8.0-sources.jar!/com/mpush/common/router/RemoteRouterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="91" column="62" lean-forward="false" selection-start-line="91" selection-start-column="62" selection-end-line="91" selection-end-column="62" />
+        <state relative-caret-position="209">
+          <caret line="82" column="62" lean-forward="false" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/router/ClientLocation.java">
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-cache/src/main/java/com/mpush/cache/redis/manager/RedisManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="144" column="18" lean-forward="false" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="37" />
+        <state relative-caret-position="299">
+          <caret line="179" column="39" lean-forward="false" selection-start-line="179" selection-start-column="33" selection-end-line="179" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-zk/src/main/java/com/mpush/zk/ZKClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-pre.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-online.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/AppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="186" column="36" lean-forward="false" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-client/src/main/java/com/mpush/client/push/PushClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/conf/conf-daily.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/service/impl/PushServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="128" column="53" lean-forward="false" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="53" />
           <folding>
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2499#2500#0" expanded="true" />
-            <element signature="e#2533#2534#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-api/src/main/java/com/mpush/api/connection/Connection.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/push/PushSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="359">
+          <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-api/src/main/java/com/mpush/api/router/ClientLocation.java">
+    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-web/src/main/java/com/mpush/mpns/web/handler/AdminHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-api/0.8.0/mpush-api-0.8.0-sources.jar!/com/mpush/api/push/PushContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#3603#3604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpns-master/mpns-biz/src/main/java/com/mpush/mpns/biz/service/impl/PushServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="141" column="26" lean-forward="false" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+          <folding>
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-java-master/src/test/java/com/mpush/client/MPushClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrpush/src/main/java/com/maywidehb/qrpush/push/PushAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpush-master/mpush-test/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrpush/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding />
         </state>
       </provider>

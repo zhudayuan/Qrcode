@@ -35,15 +35,15 @@ import java.util.concurrent.TimeUnit;
  */
 public class MPushClientTest {
     private static final String publicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCghPCWCobG8nTD24juwSVataW7iViRxcTkey/B792VZEhuHjQvA3cAJgx2Lv8GnX8NIoShZtoCg3Cx6ecs+VEPD2fBcg2L4JK7xldGpOJ3ONEAyVsLOttXZtNXvyDZRijiErQALMTorcgi79M5uVX9/jMv2Ggb2XAeZhlLD28fHwIDAQAB";
-    private static final String allocServer = "http://123.56.7.110:9999/";
+    private static  String allocServer = "http://123.56.7.110:9999/";
 
     public static void main(String[] args) throws Exception {
-        int count = 5;
+        int count = 2;
 //        String serverHost = "123.56.7.110";
         String serverHost = "127.0.0.1";
 
         int port=3000;
-        int sleep = 1000;
+        int sleep = 3000;
 
         if (args != null && args.length > 0) {
             count = Integer.parseInt(args[0]);
@@ -60,10 +60,13 @@ public class MPushClientTest {
         Client client = null;
         String cacheDir = MPushClientTest.class.getResource("/").getFile();
         for (int i = 0; i < count; i++) {
+            if(i==1){
+                allocServer = null;
+            }
             client = ClientConfig
                     .build()
                     .setPublicKey(publicKey)
-//                    .setAllotServer(allocServer)
+                    .setAllotServer(allocServer)
                     .setServerHost(serverHost)
                     .setServerPort(port)
                     .setDeviceId("deviceId-test-" + i)
