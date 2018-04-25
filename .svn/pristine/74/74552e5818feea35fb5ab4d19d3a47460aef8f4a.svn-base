@@ -1,0 +1,16 @@
+server.port=8081
+
+qr.home=${user.dir}/qrpush/target
+qr.log_root_level=info
+qr.log_conf=./conf/logback.xml
+
+# REDIS (RedisProperties)
+qr.redis.host=127.0.0.1
+qr.redis.port=6630
+qr.redis.password=Maywide123
+qr.redis.pool.max-total=16
+qr.redis.pool.max-wait=-1
+qr.redis.pool.max-idle=8
+qr.redis.pool.min-idle=3
+qr.redis.timeout=30000
+

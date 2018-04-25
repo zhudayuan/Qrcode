@@ -1,6 +1,0 @@
-2018-01-09 09:08:34.063 - init zk client, config=ZKConfig{hosts='127.0.0.1:2181', digest='mpush', namespace='mpush', maxRetries=3, baseSleepTimeMs=3000, maxSleepMs=5000, sessionTimeout=5000, connectionTimeout=5000, watchPath='/'}
-2018-01-09 09:08:34.323 - init zk client waiting for connected...
-2018-01-09 09:08:34.464 - zk client start success, server lists is:127.0.0.1:2181
-2018-01-09 09:08:35.327 - register {host='192.168.1.100', port=3000, attrs={weight=1}, persistent=false} to srd success.
-2018-01-09 09:08:35.357 - register {host='192.168.1.100', port=8008, attrs=null, persistent=false} to srd success.
-2018-01-09 09:08:35.391 - register {host='192.168.1.100', port=3001, attrs=null, persistent=false} to srd success.

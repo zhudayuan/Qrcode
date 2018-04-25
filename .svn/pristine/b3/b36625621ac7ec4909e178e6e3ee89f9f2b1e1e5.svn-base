@@ -1,0 +1,14 @@
+server.port=8081
+
+mp.log.level=info
+mp.zk.server=127.0.0.1:2181
+mp.redis.nodes="127.0.0.1:6640"
+mp.redis.password=Maywide123
+
+qr.redis.host=127.0.0.1
+qr.redis.port=6630
+qr.redis.password=Maywide123
+qr.log.root.level=info
+
+
+

@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/../client-java-master" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_centaur" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_core" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_custom" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_custom_plug" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_gift" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_goods" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_goods_platform" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_information" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_market" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_mobile_site" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_newboss_site" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_newthird_site" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_open" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_open_plus" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_order" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_searchplatform" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_site" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_site_common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_system" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../guangdongchengyi/kstore_templet" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-boot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-cache" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-core" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-monitor" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-netty" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-test" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-tools" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../mpush-master/mpush-zk" charset="UTF-8" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/alloc-master" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-java-master" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mpns-master" charset="UTF-8" />
@@ -54,7 +20,6 @@
     <file url="file://$PROJECT_DIR$/mpush-master/mpush-tools" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mpush-master/mpush-zk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qrpush" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../wappweb/micaweb" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,20 @@
+server.port=${server.port}
+
+# REDIS (RedisProperties)
+qr.redis.host=${qr.redis.host}
+qr.redis.port=${qr.redis.port}
+qr.redis.password=${qr.redis.password}
+qr.redis.pool.max-total=16
+qr.redis.pool.max-wait=-1
+qr.redis.pool.max-idle=8
+qr.redis.pool.min-idle=3
+qr.redis.timeout=30000
+
+qr.log_root_level=${qr.log.root.level}
+qr.log_conf=conf/logback.xml
+
+
+
+
+
+

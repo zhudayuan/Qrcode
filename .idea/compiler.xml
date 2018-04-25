@@ -7,9 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alloc" />
-        <module name="mpns-biz" />
-        <module name="mpns-client" />
-        <module name="mpns-web" />
         <module name="mpush-api" />
         <module name="mpush-api (2)" />
         <module name="mpush-boot" />

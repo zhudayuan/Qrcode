@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/alloc-master/alloc.iml" filepath="$PROJECT_DIR$/alloc-master/alloc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mpns-master/mpns.iml" filepath="$PROJECT_DIR$/mpns-master/mpns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mpns-master/mpns-biz/mpns-biz.iml" filepath="$PROJECT_DIR$/mpns-master/mpns-biz/mpns-biz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mpns-master/mpns-client/mpns-client.iml" filepath="$PROJECT_DIR$/mpns-master/mpns-client/mpns-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mpns-master/mpns-web/mpns-web.iml" filepath="$PROJECT_DIR$/mpns-master/mpns-web/mpns-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mpush-master/mpush.iml" filepath="$PROJECT_DIR$/mpush-master/mpush.iml" />
       <module fileurl="file://$PROJECT_DIR$/mpush-master/mpush-api/mpush-api.iml" filepath="$PROJECT_DIR$/mpush-master/mpush-api/mpush-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mpush-master/mpush-boot/mpush-boot.iml" filepath="$PROJECT_DIR$/mpush-master/mpush-boot/mpush-boot.iml" />

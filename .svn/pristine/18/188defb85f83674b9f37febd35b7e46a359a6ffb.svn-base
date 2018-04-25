@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: junit:junit:4.10" scope="TEST"/>
+	<lib name="Maven: org.hamcrest:hamcrest-core:1.1" scope="TEST"/>
+	<levels>
+		<level name="Maven: io.netty:netty-transport:4.1.8.Final" value="project"/>
+		<level name="Maven: io.netty:netty-buffer:4.1.8.Final" value="project"/>
+		<level name="Maven: io.netty:netty-common:4.1.8.Final" value="project"/>
+		<level name="Maven: io.netty:netty-resolver:4.1.8.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec-http:4.1.8.Final" value="project"/>
+		<level name="Maven: io.netty:netty-codec:4.1.8.Final" value="project"/>
+		<level name="Maven: junit:junit:4.10" value="project"/>
+		<level name="Maven: org.hamcrest:hamcrest-core:1.1" value="project"/>
+	</levels>
+</component>

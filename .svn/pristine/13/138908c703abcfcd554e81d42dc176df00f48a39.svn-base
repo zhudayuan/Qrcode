@@ -1,0 +1,28 @@
+##################################################################################################################
+#
+# NOTICE：
+#
+# 系统配置文件，所有列出的项是系统所支持全部配置项
+#
+# 配置文件格式采用HOCON格式。解析库由https://github.com/typesafehub/config提供。
+# 具体可参照器说明文档，比如含有特殊字符的字符串必须用双引号包起来。
+#
+##################################################################################################################
+
+mp {
+    #日志配置
+    log-level=${mp.log.level}
+    #Zookeeper配置
+    zk.server-address="${mp.zk.server}"
+
+    #Redis集群配置
+    redis {
+        cluster-model=single//single,cluster,sentinel
+        password:"${mp.redis.password}"//your password
+        nodes:[${mp.redis.nodes}]//格式ip:port:password,密码可以不设置ip:port
+    }
+
+}
+
+
+
